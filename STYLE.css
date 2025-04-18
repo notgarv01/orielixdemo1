@@ -1,0 +1,233 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    position: fixed;
+    background-color:white;
+    display: flex;
+    width: 100%;
+    height: 22%;
+}
+#logo{
+    
+    width: 25%;
+    height: 100%;
+    padding: 1% 2%;
+
+}
+#logo img{
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    padding: 0% 10%;
+}
+#home h1{
+    font-size: 80px;
+}
+#home h1:hover{
+    background-color: rgb(229, 152, 234);
+    color: rgb(169, 25, 107);
+    padding: 2%;
+    border-radius: 30px;
+}
+#home h2{
+    color: black;
+    background-color: rgb(229, 152, 234);
+    font-size: 80px;
+    padding: 2.5%;
+    border-radius: 30px;
+}
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 3%;
+    gap: 5%;
+    width: 25%;
+    height: 100%;
+    
+}
+#button button{
+    border-radius: 80px;
+    padding: 3.5% 9%;
+    font-size: 70px;
+}
+.b1{
+    font-weight: 700;
+}
+.b1:hover{
+    background-color: rgb(229, 152, 234);
+    color: whitesmoke;
+    border-color: blueviolet;
+    border: 10px solid blueviolet;
+}
+.b2{
+    background-color: rgb(229, 152, 234);
+    font-weight: 700;
+    color: white;
+}
+.b2:hover{
+    background-color: rgb(196, 89, 203);
+    color: whitesmoke;
+    
+    border: 10px solid  rgb(196, 89, 203);
+}
+#rating{
+   
+    color: black;
+    background-color: ;
+    height: 0%;
+    width: 100%;
+    padding: 10% 0%;
+}
+#rating h1{
+    font-weight: 530;
+    margin-top: %;
+    margin-left: 48.5%;
+    font-size: 110px;
+    line-height: 120px;
+    letter-spacing: -2px;
+    
+}
+#rating h5{
+    font-weight: 200;
+    margin-left: 48%;
+    font-size: 110px;
+    line-height: 120px;
+    letter-spacing: -2px;
+    margin-top: 9%;
+}
+#name{
+    background-color: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 28%;
+    width: 100%;
+    background-color: ;
+    padding: 0% 2.5%;
+    margin-top: 7.8%;
+}
+#name h1{
+    color: rgb(177, 10, 199);
+    font-size: 330px;
+}
+#name1{
+    align-items: center;
+    font-size: 120px;
+}
+.d2{
+    margin-left: 30%;
+}
+#start{
+    height: 20%;
+    width: 100%;
+}
+#start button{
+    font-size: 100px;
+    margin-top: 210px;
+    margin-left: 40%;
+    padding: 1.3% 2.5%;
+    border-radius: 901px;
+    background-color:rgb(229, 152, 234);
+    color: white;
+    font-weight: 550;
+}
+
+
+#main>img{
+    align-items: center;
+    height: 90%;
+    width: 50%;
+    object-fit: cover;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+#cc{
+    height: 67%;
+    width: 100%;
+    background-color:;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cc i{
+    font-size: 120px;
+    background-color:;
+}
+#cc h1{
+    font-size: 120px;
+    background-color:peachpuff;
+    color: brown;
+    padding: 1%;
+    border-radius: 950px;
+    
+}
+#journey{
+    color: slateblue;
+    height: 43%;
+    width: 100%;
+    background-color:;
+}
+.line{
+    margin-left: 8%;
+    width: 900px;
+    height: 24px;
+    background-color: rgb(125, 62, 180);
+    border-radius: 50px;
+}
+.j1{
+    background-color:;
+    display: flex;
+    align-items: last baseline;
+    padding-left: 20%;
+}
+.j1 h1{
+    font-size: 210px;
+}
+.j2{
+    font-weight: 900;
+    font-size: 210px;
+    margin-left: 33%;
+}
+#boxes{
+    height: 70%;
+    width: 100%;
+    background-color: green;
+}
+#b1{
+    background-color: red;
+    height: 100%;
+    width: 33%;
+}
+#b2{
+    background-color: pink;
+    height: 100%;
+    width: 33%;
+}
+#b3{
+    background-color: yellow;
+    height: 100%;
+    width: 34%;
+}
+#boxes{
+    display: flex;
+}
